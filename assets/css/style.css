@@ -1,0 +1,185 @@
+@font-face {
+    font-family: TiemposHeadline-Semibold;
+    src: url(../font/TiemposHeadline-Semibold.woff);
+}
+@font-face {
+    font-family:Graphik-Medium ;
+    src: url(../font/Graphik-Medium.ttf);
+}
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(../font/Graphik-Regular.woff);
+}
+@font-face {
+    font-family: Theinhardt-Lt;
+    src: url(../font/Theinhardt-Lt.woff);
+}
+body {
+    margin: 0;
+}
+#header {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-items: center;
+    align-items: center;
+}
+#header .nav li {
+    display: inline;
+    padding-right: 20px;
+}
+#header a {
+    text-decoration: none;
+    color: black;
+}
+#header .nav li a {
+    font-family: Graphik-Regular;
+    font-size: 1.1em;
+}
+#header .logo a {
+    font-family: TiemposHeadline-Semibold;
+    font-size: 2em;
+}
+#header .header-link a {
+    font-family:Graphik-Medium ;
+    font-size: 1.2em;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 8px 50px;
+
+}
+#main {
+    overflow: hidden;
+    height: fit-content;
+}
+#main .headline {
+    text-align: center;
+    padding-top: 5%;
+    font-family: Graphik-Regular;
+    font-size: 2.5em;
+}
+#main .headline-img {
+    width: 100%;
+}
+.section-second {
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 70% 20%;
+}
+.section-second p {
+    font-family:Graphik-Medium ;
+    font-size: 1.2em;
+    padding-right: 10%;
+    line-height: 1.5;
+}
+.section-second h3 {
+    font-size: 4em;
+    margin: 0;
+    font-weight: lighter;
+}
+.section-second h4 {
+    font-family: Theinhardt-Lt;
+    font-size: 1.2em;
+    color: #9FA2A7;
+} 
+.section-third {
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.section-third img {
+    width: 95%;
+}
+.section-third h2 {
+    font-family: TiemposHeadline-Semibold;
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+.section-third h3 {
+    font-family:Graphik-Medium ;
+    font-size: 1.5em;
+}
+.section-third p {
+    font-family: Theinhardt-Lt;
+    font-size: 1.2em;
+    color: #9FA2A7;
+
+}
+.section-fourth {
+    margin: 10%;
+    background-color: rgb(241, 241, 244);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.section-fourth img {
+    width: 95%;
+}
+.section-fourth div {
+    margin: 0 8%;
+}
+.section-fourth h2 {
+    font-family: TiemposHeadline-Semibold;
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+.section-fourth li , .section-fourth p{
+    color: #9FA2A7;
+    font-family: Theinhardt-Lt;
+}
+.section-fifth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-fifth h3 {
+    font-family: TiemposHeadline-Semibold;
+    font-size: 3em;
+}
+.section-fifth p {
+    color: #9FA2A7;
+    font-family: Theinhardt-Lt;
+    width: 45%;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2;
+    margin-bottom: 10%;
+}
+.section-sixth {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: -6%;
+    padding-bottom: 10%;
+    border-bottom: 2px solid #9fa2a7;
+}
+.section-sixth img {
+    width: 50%;
+}
+.section-sixth p {
+    font-family:Graphik-Medium ;
+    color: #9FA2A7;
+    padding-left: 15%;
+    line-height: 2;
+    font-size: 1.3em;
+}
+#footer {
+    padding-top: 10%;
+    text-align: center;
+}
+#footer h2 {
+    font-family: TiemposHeadline-Semibold;
+    font-size: 3em;
+}
+#footer span {
+    color: #9FA2A7;
+    font-size: 1.3em;
+    padding-bottom: 5%;
+}
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+#footer img {
+    width: 8%;
+}
